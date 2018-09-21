@@ -65,7 +65,7 @@ public class TestCraps
 	{
 		// game = new CrapsGame();
 
-		game = new CrapsGame(new Die(), new Die()); // two "fair" Die objects
+		game = new CrapsGame(new CrookedDie1(), new CrookedDie2()); // two "fair" Die objects
 
 		// we'll use the above to substitute Die subclass objects,
 		// thus affecting the outcome
